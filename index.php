@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="css/estilo.css">    
     <title>Acesso DMellitus</title>
 </head>
-<body class="">
+<body>
   
   <?php include 'menu.php'; ?>
-    
+
+  <?php include 'download.php'; ?> 
+  
   <?php include 'carousel.php'; ?>
 
     <!-- Curiosidades -->
+
+   
+
     <section>
       <div class="d-flex justify-content-center mt-3">
         <h3 class="border-bottom border-danger border-opacity-50" id="Curiosidades">Curiosidades</h3>
@@ -26,7 +31,7 @@
           <div class="mx-5">
             <img class="me-5"  onclick="document.getElementById('id01').style.display='block'" class="w3-img w3-black" src="Img/curiosidades.jpg" alt="" width="100px">
             <p class="text-center text-primary fs-3 me-5 textoTipo">
-              TIPO 1
+              TIPO 1 
             </p>
           </div>
           <!-- modal -->
@@ -268,6 +273,8 @@
         </div>
       </div>
     </section>
+
+
     <!-- rodapé  -->
     <footer class="bg-danger mt-5">
       <div class="row text-center">    
