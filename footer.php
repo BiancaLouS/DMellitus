@@ -34,7 +34,7 @@
 					<div class="col-footer col-md-3">
 						<h2 class="footer-title">ONG'S? </h2>
 						Bla-bla-bla<br><br>
-						<div class="textwidget">My Company , 4578 Marmora Road, Glasgow D04 89GR</div>
+						<div class="textwidget">Rua Taquarana - Tatuapé, 2026</div>
 						<div class="textwidget">0123-456-789 E-mail: info@ognDiabetes.org</div>
 					</div>
 				
