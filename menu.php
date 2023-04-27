@@ -34,7 +34,8 @@
         </nav>
 
         <div class="container-fluid" style="margin-top:80px">
-        </div>
+
+      </div>
   </header>
 </body>
 </html>

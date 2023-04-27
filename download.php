@@ -12,9 +12,7 @@
 <!-- botao download -->
   <main>
     <div>
-        <div class="d-flex justify-content-center bg-secondary">
-        <p class="text-white text-decoration-underline m-2 text-center">Primeira versão</p><p class="text-white m-2">está disponivel agora! e correções de Maio.</p>
-        </div>
+        
       <div class="container-fluid text-center">
         <div class="row m-4">
           <div class="col text-black mt-5">
