@@ -11,63 +11,88 @@
 
        <link rel="stylesheet" href="Css/bootstrap.min.css"  type="text/css">
       <link rel="stylesheet" href="Css/estilo.css">
-      <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css"  type="text/css">
 	    <link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
 
   </head>
 <body>
-  <header >
-  <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                   
-                </button>
-                <a class="navbar-brand page-scroll" href="index.html">
-					<img src="images/logo.png" class="hidden-xs" alt="">
-					<div class="visible-xs">Acessa DMellitus</div>
-				</a>
-            </div>
+<!-- Fixed Left Sidebar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark pmd-navbar pmd-z-depth">
+       
+    <a href="javascript:void(0);" 
+        data-target="basicSidebar" 
+        data-placement="left" 
+        class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect pmd-sidebar-toggle">
+        <i class="material-icons md-light">menu</i></a>
+        
+        <a class="navbar-brand" href="index.php">Acessa DMellitus</a>
+        
+        <!-- Navbar Right icon -->		
+        <div class="pmd-navbar-right-icon ml-auto">
+            <a href="javascript:void(0);" class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect"><i class="material-icons pmd-sm md-light">search</i></a>
+        </div>
+    </nav>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.php#about">Home</a>
-                    </li>
+<section id="pmd-main">
 
-                    <li>
-                        <a class="page-scroll" href="index.html#services">Services</a>
+    <!-- Left sidebar -->
+    <aside id="basicSidebar" class="pmd-sidebar bg-light pmd-z-depth" role="navigation">
+        <ul class="nav flex-column pmd-sidebar-nav">
+            <li class="nav-item pmd-user-info">
+                <a data-toggle="collapse" href="#collapseExample" class="nav-link btn-user media align-items-center">
+                    <img class="mr-3" src="https://pro.propeller.in/assets/images/avatar-icon-40x40.png" width="40" height="40" alt="avatar">
+                    <div class="media-body">
+                        User
+                    </div>
+                    <i class="material-icons md-light ml-2 pmd-sm">more_vert</i>
+                </a>
+                <ul class="collapse" id="collapseExample" data-parent="#basicSidebar">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="material-icons pmd-list-icon pmd-sm">delete</i>
+                            <span class="media-body">View Profile</span>
+                        </a>
                     </li>
-					<li>
-                        <a class="page-scroll" href="index.html#testimonials">Testimonials</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="material-icons pmd-list-icon pmd-sm">delete</i>
+                            <span class="media-body">Settings</span>
+                        </a>
                     </li>
-					<li>
-                        <a class="page-scroll" href="index.html#gallery">Gallery</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="index.html#subcribe">Subcribe</a>
-                    </li>
-					<li>
-                        <a class="page-scroll" href="contact.html">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="material-icons pmd-list-icon pmd-sm">delete</i>
+                            <span class="media-body">Logout</span>
+                        </a>
                     </li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-  </header>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">
+                    <i class="material-icons pmd-list-icon pmd-sm">star</i>
+                    <span class="media-body">Stared</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="material-icons pmd-list-icon pmd-sm">send</i>
+                    <span class="media-body">Sent Email</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="material-icons pmd-list-icon pmd-sm">drafts</i>
+                    <span class="media-body">Drafts</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    
+    <!-- Sidebar Overlay -->
+    <div class="pmd-sidebar-overlay"></div>
+    
+ </section>
 
-  
-<script src="Js/agency.js"></script>
-<script src="Js/jquery.easing.min.js"></script>
-<script src="Js/classie.js"></script>
-<script src="Js/cbpAnimatedHeader.js"></script>
+
 
   
 </body>
