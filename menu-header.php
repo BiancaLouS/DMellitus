@@ -15,15 +15,14 @@
 
   </head>
 <body>
-<!-- Fixed Left Sidebar -->
+
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
        
-    <a
-        data-placement="left" 
-        class="btn">
+        <a
+            data-placement="left" 
+            class="btn">
         <a class="navbar-brand" href="index.php">Acessa DMellitus</a>
         
-        <!-- Navbar Right icon -->		
         <div class="pmd-navbar-right-icon ml-auto">
             <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect"><i class="glyphicon glyphicon-option-vertical">search</i></a>
         </div>
