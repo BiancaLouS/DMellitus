@@ -75,15 +75,31 @@ footer a:hover {color: #fff;text-decoration: underline;}
 
 footer .col-footer{margin: 10px 0 30px;}
 
-footer .top-footer{padding:30px 0; background-color: #fff;}
 footer .wrap-footer{padding-top:40px; background-color: #222;}
 footer .bottom-footer{background-color: #29282E;text-align: center;padding: 10px 0px;}
 footer .bottom-footer p{color: #fff !important;}
-footer ul.social-buttons li a{display: block;width: 35px;height: 35px;border-radius: 100%;font-size: 20px;color: #222;background-color: #fff;transition-duration: 0.4s;}
-footer ul.social-buttons li a:hover{background-color: #17B3E8;color: #fff;}
+
+/* Configuração dos ícones das redes sociais */
+footer ul.social-buttons li a{
+    display: block;
+
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    font-size: 20px;
+    color: #222;
+    background-color: #fff;
+    transition-duration: 0.4s; 
+    float: right;
+    margin-left: 20px;
+
+}
+
+
+footer ul.social-buttons li a:hover{background-color: #dc3545;color: #fff;}
 footer ul.social-buttons li a i{margin-top: 7px;}
 
-.footer-title:before {background-color: #F05F40;content: "";height: 1em;left: 0;margin-top: -0.5em;position: absolute;top: 50%;width: 3px;}
+.footer-title:before {background-color: #dc3545;content: "";height: 1em;left: 0;margin-top: -0.5em;position: absolute;top: 50%;width: 3px;}
 .footer-title {display: block;font-weight: bold;letter-spacing: 1px;margin-top: -5px;padding-left: 13px;position: relative;text-transform: uppercase;font-size: 14px;color: #fff;}
 
 .footer-tags a{color: #999; border: 1px solid #999; padding: 4px 10px;line-height: 2.2;font-size: 13px;text-transform: capitalize;}
@@ -97,13 +113,15 @@ footer ul.social-buttons li a i{margin-top: 7px;}
     padding: 15px 0 16px;
     text-transform: uppercase;
 }
- .widget_recent_entries li a:before {
-    content: "";
-    font-family: "FontAwesome";
-    left: 0;
-    line-height: 1;
-    margin-top: -5px;
-    position: absolute;
-    top: 50%;
+
+
+.widget_recent_entries li a {
+    font-weight:bold;
+    text-transform:uppercase;
+    color:rgba(153,153,153,1.0);
+    display:inline-block;
+    position:relative;
+    padding-left:14px;
+    letter-spacing:1px;
+    font-size: 10px;
 }
-.widget_recent_entries li a {font-weight:bold;text-transform:uppercase;color:rgba(153,153,153,1.0);display:inline-block;position:relative;padding-left:14px;letter-spacing:1px;font-size: 10px;}
