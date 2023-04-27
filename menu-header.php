@@ -16,18 +16,65 @@
   </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-       
-        <a
-            data-placement="left" 
-            class="btn">
-        <a class="navbar-brand" href="index.php">Acessa DMellitus</a>
-        
-        <div class="pmd-navbar-right-icon ml-auto">
-            <a class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect"><i class="glyphicon glyphicon-option-vertical">search</i></a>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+             
+            <a class="navbar-brand" href="#">  <h4> Acessa DMellitus </h4>  </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- SideBar -->
+
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Mais Opções</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Entre em Contato</a>
+                        <hr>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Curiosidades </a>
+                        <hr>
+                    </li>
+                    <li class="nav-item dropdown " >
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Mais Sobre o Aplicativo
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            
+                        <li><a class="dropdown-item" href="#">Administração de Glicemia</a></li>
+                        <li><a class="dropdown-item" href="#">Exercicíos e Receitas</a></li>
+                        <li><a class="dropdown-item" href="#">Outras Ferramentas</a></li>
+
+
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">O Cadastro   </a></li>
+                        <li><a class="dropdown-item" href="#">Políticas e Termos de Uso</a></li>
+                        <li><a class="dropdown-item" href="#">Para Menores de Idade</a></li>
+
+                        
+                        </ul>
+                        <hr>
+                </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
+                <button class="btn btn-danger" type="submit">Pesquisar</button>
+                </form>
+            </div>
+            </div>
         </div>
     </nav>
-
 
 
   
