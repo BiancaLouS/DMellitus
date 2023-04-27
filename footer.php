@@ -18,7 +18,7 @@
 	<!-- Custom Fonts -->
     <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css"  type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
-    
+
 </head>
 <body>
 <footer>
@@ -80,25 +80,17 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-						<p>Copyright 20xx - Designed by <a href="https://www.Zerotheme.com">Zerotheme</a></p>
+						<p>Copyright 2023 - Desenvolvida por Equipe Acessa DMellitus</a></p>
 					</div>
 					<div class="col-md-4">
 						<ul class="list-inline social-buttons">
 							<li><a href="#"><i class="fa fa-twitter"></i></a>
 							</li>
-							<li><a href="https://www.facebook.com/Zerotheme"><i class="fa fa-facebook"></i></a>
+							<li><a href=""><i class="fa fa-facebook"></i></a>
 							</li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a>
+							<li><a href="#"><i class="fa fa-instagram"></i></a>
 							</li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-4">
-						<ul class="list-inline quicklinks">
-							<li><a href="#">Privacy Policy</a>
-							</li>
-							<li><a href="#">Terms of Use</a>
 							</li>
 						</ul>
 					</div>
