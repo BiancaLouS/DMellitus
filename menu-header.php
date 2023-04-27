@@ -11,7 +11,6 @@
 
        <link rel="stylesheet" href="Css/bootstrap.min.css"  type="text/css">
       <link rel="stylesheet" href="Css/estilo.css">
-	    <link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
 
   </head>
 <body>
@@ -70,7 +69,7 @@
                             </ul>
 
                             <hr>
-                    </li>
+                        </li>
                     </ul>
 
                     <!-- Barra de pesquisa  -->
