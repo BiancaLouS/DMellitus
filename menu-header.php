@@ -98,7 +98,7 @@
                             <h3 class="inlineIcone"><a href=""><img src="Img/googlePlay.png" style="width: 150px;" alt="Google Play"></a></h3>
                             <h3 class="inlineIcone"><a href=""><img src="Img/appleStore.png" style="width: 150px;" alt="Apple Store"></a>
 
-                            <p class="subTexto">Controle sua Glicemia, Controle seu Horário, Controle-se </p>
+                            <p class="subTexto">Controle sua Glicemia, Controle seu Horário, Controle-se. </p>
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@
                             <h3 class="inlineIcone"><a href=""><img src="Img/googlePlay.png" style="width: 150px;" alt="Google Play"></a></h3>
                             <h3 class="inlineIcone"><a href=""><img src="Img/appleStore.png" style="width: 150px;" alt="Apple Store"></a>
 
-                            <p class="subTexto">Controle sua Glicemia, Controle seu Horário, Controle-se </p>
+                            <p class="subTexto">Controle sua Glicemia, Controle seu Horário, Controle-se. </p>
                         </div>
                     </div>
             </div>
