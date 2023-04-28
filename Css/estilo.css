@@ -172,3 +172,13 @@ footer ul.social-buttons li a i
 
 /* Fim Configuração do Footer*/
 
+/* Carrossel Configs */
+
+.inlineIcone{
+    display: inline;
+ 
+}
+
+.textoBanner{
+    margin-bottom: 420px;
+}

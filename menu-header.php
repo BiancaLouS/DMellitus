@@ -59,7 +59,7 @@
 
                                 <li> <hr class="dropdown-divider"> </li>
 
-                                <li><a class="dropdown-item" href="#">O Cadastro   </a></li>
+                                <li><a class="dropdown-item" href="#"> O Cadastro </a></li>
 
                                 <li><a class="dropdown-item" href="#">Políticas e Termos de Uso</a></li>
 
@@ -84,19 +84,33 @@
         </div>
     </nav>
 
-    <!-- carousel do principal   -->
+    <!-- carousel do princiapl  -->
 
     <div id="carouselPrincipal" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
             <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="Img/IdosoModerno.jpg" class="d-block w-100" alt="Idoso usando aplicativo">
-                        <div class="carousel-caption d-none d-md-block"> </div>
+
+                        <!-- Texto do banner -->
+                        <div class="carousel-caption text-left textoBanner">
+                            <h1>FAÇA JÁ O DOWNLOAD! </h1>
+                            <h3 class="inlineIcone"><a href=""><img src="Img/googlePlay.png" style="width: 150px;" alt="Google Play"></a></h3>
+                            <h3 class="inlineIcone"><a href=""><img src="Img/appleStore.png" style="width: 150px;" alt="Apple Store"></a>
+
+                            <p class="subTexto">Controle sua Glicemia, Controle seu Horário, Controle-se </p>
+                        </div>
                     </div>
 
                     <div class="carousel-item">
-                    <img src="Img/PaiFilho.jpg" class="d-block w-100" alt="Pai e filho usando aplicativo">
-                        
+                    <img src="Img/maeFilha.jpg" class="d-block w-100" alt="Pai e filho usando aplicativo">
+                    <div class="carousel-caption text-left textoBanner">
+                            <h1>FAÇA JÁ O DOWNLOAD!</h1>
+                            <h3 class="inlineIcone"><a href=""><img src="Img/googlePlay.png" style="width: 150px;" alt="Google Play"></a></h3>
+                            <h3 class="inlineIcone"><a href=""><img src="Img/appleStore.png" style="width: 150px;" alt="Apple Store"></a>
+
+                            <p class="subTexto">Controle sua Glicemia, Controle seu Horário, Controle-se </p>
+                        </div>
                     </div>
             </div>
             
