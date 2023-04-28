@@ -6,9 +6,6 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Menu Público</title>
 
-      <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
-       <link href="owl-carousel/owl.theme.css" rel="stylesheet">
-
        <link rel="stylesheet" href="Css/bootstrap.min.css"  type="text/css">
       <link rel="stylesheet" href="Css/estilo.css">
 
@@ -78,6 +75,9 @@
                         <input class="form-control me-2" type="search" placeholder="O que está procurando?" aria-label="Search">
                         <button class="btn btn-danger" type="submit">Pesquisar</button>
                     </form>
+
+                    <h3 class="inlineIcone"><a href=""><img src="Img/googlePlay.png" style="width: 150px;" alt="Google Play"></a></h3>
+                    <h3 class="inlineIcone"><a href=""><img src="Img/appleStore.png" style="width: 150px;" alt="Apple Store"></a>
 
                 </div>
             </div>
