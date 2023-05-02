@@ -29,7 +29,7 @@
         <div class="d-flex justify-content-center">
           <div class="d-flex justify-content-evenly">
           <div class="mx-5">
-            <img class="me-5"  onclick="document.getElementById('id01').style.display='block'" class="w3-img w3-black" src="Img/curiosidades.jpg" alt="" width="100px">
+            <img class="me-5"  onclick="document.getElementById('id01').style.display='block'" class="w3-img w3-black" src="Img/tipo1.png" alt="" width="100px">
             <p class="text-center text-primary fs-3 me-5 textoTipo">
               TIPO 1 
             </p>
@@ -70,7 +70,7 @@
           </section>
           <!-- modal  -->
           <div class="mx-5">
-            <img src="Img/curiosidades.jpg" onclick="document.getElementById('id012').style.display='block'" class="w3-img w3-black" alt="" width="100px">
+            <img src="Img/tipo2.png" onclick="document.getElementById('id012').style.display='block'" class="w3-img w3-black" alt="" width="100px">
             <p class="text-center text-primary fs-3 textoTipo">
               TIPO 2
             </p>
@@ -105,7 +105,7 @@
             </div>
           </section>
           <div class="mx-5">
-            <img class="ms-5" onclick="document.getElementById('id013').style.display='block'" class="w3-img w3-black" src="Img/mae.png" alt="" width="100px">
+            <img class="ms-5" onclick="document.getElementById('id013').style.display='block'" class="w3-img w3-black" src="Img/maePreto.png" alt="" width="100px">
             <p class="text-center text-primary fs-3 textoTipo">
                 GESTACIONAL
             </p>
@@ -210,7 +210,7 @@
             </div>
           </section>
           <div class="mx-5">
-            <img class="ms-5" onclick="document.getElementById('id014').style.display='block'" class="w3-img w3-black" src="Img/teste-de-diabetes.png" alt="" width="90px">
+            <img class="ms-5" onclick="document.getElementById('id014').style.display='block'" class="w3-img w3-black" src="Img/medidorGliIcon.png" alt="" width="90px">
             <p class="text-center text-primary fs-3 textoTipo">
                 COMPLICAÇÕES <br> DA DIABETE
             </p>
