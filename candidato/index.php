@@ -9,5 +9,7 @@
 <body>
     <?php include 'menu_candidato.php'?>
     <<?php include 'superior.php'?>
+    <br><br>
+    <?php include 'subsuperior.php'?>
 </body>
 </html>

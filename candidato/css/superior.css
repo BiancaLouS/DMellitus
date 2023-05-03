@@ -5,6 +5,7 @@
 
 .col{
     padding-left: 100px;
+    padding-right: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
