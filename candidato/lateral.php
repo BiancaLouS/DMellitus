@@ -31,17 +31,30 @@
         <div class="corpocentral">
             <div class="corposuperior">
                 <div class="aviso">
-                    fdfd
+                    <h1>Aviso</h1>
                 </div>
                 <div class="tratamento">
-                    fdfd
+                    <h1>Seu tratamento</h1>
                 </div>
                 <div class="conta">
-                    fdf
+                    <h1>Olá nome! <br>
+                        Minha Conta
+                    </h1>
                 </div>
             </div>
             <div class="corposubsperior">
-                datefmt_get_datetype
+               <div class="img">
+                    <img src="img/iconatendimento.svg" alt="">
+               </div>
+               <div class="img">
+                    <img src="img/iconcalendario.svg" alt="">
+               </div>
+               <div class="img">
+                    <img src="img/iconminhaconta.svg" alt="">
+               </div>
+               <div class="img">
+                    <img src="img/iconreceita.svg" alt="">
+               </div>
             </div>
             <div class="corpocentro">
                 fdd
