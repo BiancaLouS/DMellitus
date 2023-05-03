@@ -25,7 +25,7 @@
 					<div class="col-footer col-md-3 widget_recent_entries">
 						<h2 class="footer-title">MAPA DO SITE</h2>
 						<ul>
-							<li><a href="#">HOME</a></li>
+							<li><a href="index.php">HOME</a></li>
 							<li><a href="receita.php">RECEITAS</a></li>
 							<li><a href="#">CURIOSIDADES</a></li>
 							<li><a href="#">SOBRE O APP</a></li>

@@ -1,96 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt_BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Receitas</title>
+    <title>Footer</title>
+
+    <link rel="stylesheet" href="../Css/bootstrap.min.css"  type="text/css">
+    <link rel="stylesheet" href="../Css/estilo.css">
+    <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css"  type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-  <style>
-    .row{
-      margin: 0%;
-    }
-  </style>
-    <!-- rodapé -->
-    <footer class="bg-danger mt-5 ">
-      <div class="row text-center">    
-        <div class="col-4 container">
-          <div class="row">
-              <div class="col">
-                <div class="col d-block p-5">
-                <ul>
-                  <h6 class="pt-3 text-white text-decoration-underline">
-                    LINKS
-                  </h6>
-                  <li class="text-white text-center">
-                    <h6> <a class="nav-link" href="../FaleConosco.php">Contato</a></h6>
-                    <h6> <a class="nav-link" href="../download.php">Download</a></h6>
-                    <h6> <a class="nav-link" href="../receita.php">Receitas</a></h6>
-                    <h6> <a class="nav-link" href="https://diabetesplay.com.br/">Videos</a></h6>
-                    <h6> <a class="nav-link" href="../index.php">Home</a></h6>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col">
-                <div class="col d-block">
-                  <div class="mt-5">
-                  <h6 class="p-3"><a href="../FaleConosco.php" class="text-white">FALE-CONOSCO</a></h6>
-                </div>
-                <div class="text-white">
-                  Telefone: (11) 2185-9200
-                </div> <br>
-                <div>
-                  <p class="text-white fs-5">Nossos Canais:</p>
-                  <div class="row d-flex justify-content-center">
-                      <div class="d-flex justify-content-evenly">
-                        <a class="img-fluid" href="https://www.instagram.com/"><img src="../Img/instagramIcone.png" alt="" width="40px"></a>
-                        <a class="img-fluid" href="https://pt-br.facebook.com/"><img src="../Img/facebook.png" alt="" width="40px"></a>
-                        <a class="img-fluid" href="https://twitter.com/i/flow/login"><img src="../Img/twitter.png" alt="" width="40px"></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-            <div class="col-8">
-        <div class="d-block container">
-         <a href="index.php">
-          <img src="../Img/logoPequena2.jpg" alt="" class="mt-3 border border-white border-1 rounded rounded-3 mb-3">
-         </a>
-          <div class="text-white">
-              <h5>
-                “Acesso aos Cuidados - se não agora, quando?”: 14/11 - <br> Dia Mundial e Nacional do Diabetes
-              </h5>
-          </div>
-          <div>
-            <p class="text-white">
-              O acesso à educação sobre diabetes é o foco do mês de conscientização <br> sobre o diabetes e do Dia Mundial do Diabetes em novembro.
-  
-             Todos os anos, a campanha <br> do Dia Mundial do Diabetes se concentra em um tema dedicado que dura um ou mais anos. <br>
-              O tema do Dia Mundial do Diabetes 2021-23 é Acesso aos Cuidados com o Diabetes .
-            </p>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="row text-center me-5">
-        <h6 class="text-white ms-5">Desenvolvido por Equipe Acesso Dm Mellitus&trade; 2023</h6>
-        </div>
-     </footer>  
-     <style>
-      ul{
-    text-decoration: none;
-    list-style: none;
-}
-li{
-    text-decoration: none;
-    list-style: none;
+<footer>
+		<div class="wrap-footer">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-footer col-md-3">
+						<h2 class="footer-title">SOBRE NÓS</h2>
+						<div class="textwidget">Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non. Pellentesque rutrum fringilla elementum. Curabitur tincidunt porta lorem vitae accumsan. <br> <br> 
+						Aenean feugiat in ante et blandit. Vestibulum posuere molestie risus, ac interdum magna porta non. Pellentesque rutrum fringilla elementum. Curabitur tincidunt porta lorem vitae accumsan.</div>
+					</div> 
+					<div class="col-footer col-md-3 widget_recent_entries">
+						<h2 class="footer-title">MAPA DO SITE</h2>
+						<ul>
+							<li><a href="../index.php">HOME</a></li>
+							<li><a href="../receita.php">RECEITAS</a></li>
+							<li><a href="#">CURIOSIDADES</a></li>
+							<li><a href="#">SOBRE O APP</a></li>
+						</ul>
+					</div>
+					<div class="col-footer col-md-3">
+						<h2 class="footer-title">ONG'S? </h2>
+						Bla-bla-bla<br><br>
+						<div class="textwidget">Rua Taquarana - Tatuapé, 2026</div>
+						<div class="textwidget">0123-456-789 E-mail: info@ognDiabetes.org</div>
+					</div>
+				
 
-}
-     </style> 
+                <!-- Enviar E-mail para empresa. -->
+
+                        <div class="col-footer col-md-3">
+                             <h2 class="footer-title">ENTRE EM CONTATO</h2>
+                             <br>
+                            <input type="email" placeholder="E-mail" class="form-control" id="Email">
+                            
+                        
+
+                            <select class="form-select" style="margin-top: 10px;">
+                                <option selected>Assunto</option>
+                                <option value="1">Informações</option>
+                                <option value="2">Duvidas</option>
+                                <option value="3">Suguestões</option>
+                                <option value="4">Suguestões</option>
+                                <option value="5">Elogios</option>
+                             </select>
+
+                             <div class="form-floating ">
+                                <textarea class="form-control" placeholder="Leave a comment here" style="margin-top: 10px;" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">O que está pensando?</label>
+                            </div>
+
+                             <button type="submit" class="btn btn-danger" style="margin-top: 10px;">Enviar Mensagem!</button>
+                        </div>
+               
+
+                   
+                    
+				</div>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<p>Copyright 2023 - Desenvolvida por Equipe Acessa DMellitus</a></p>
+					</div>
+					<div class="col-md-4">
+						<ul class="list-inline social-buttons">
+
+							<li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+							</li>
+
+							<li>
+                                <a href=""><i class="fa fa-facebook"></i></a>
+							</li>
+
+							<li>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+							</li>
+						
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    
 </body>
-<script src="Js/estilo.js"></script>
 </html>

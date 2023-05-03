@@ -13,7 +13,7 @@
   include 'menu-header.php';
 ?>
     <!-- receita -->
-    <main class="container mt-5 border border-1 border-black bg-white rounded-2">
+    <main class="container mt-5 border border-1 border-black bg-white rounded-2 mt-3 mb-5">
       <!-- receita crianças  -->
       <section>
         <div class="row m-4">
