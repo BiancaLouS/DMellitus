@@ -19,20 +19,9 @@ body {
     width: 80%;
     height: 80vh;
     display: flex;
-}
-
-.form-image {
-    width: 50%;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #fde3a7d7;
-    padding: 1rem;
 }
 
-.form-image img {
-    width: 31rem;
-}
 
 .form {
     width: 50%;
@@ -169,9 +158,6 @@ body {
 }
 
 @media screen and (max-width: 1330px) {
-    .form-image {
-        display: none;
-    }
     .container {
         width: 50%;
     }

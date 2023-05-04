@@ -11,9 +11,6 @@
 
 <body>
     <div class="container">
-        <div class="form-image">
-            <img src="img/undraw_happy_announcement_re_tsm0.svg" alt="">
-        </div>
         <div class="form">
             <form action="#">
                 <div class="form-header">
@@ -87,7 +84,7 @@
                 </div>
 
                 <div class="continue-button">
-                    <button><a href="#">Continuar</a> </button>
+                    <button><a href="#">Finalizar</a> </button>
                 </div>
             </form>
         </div>
