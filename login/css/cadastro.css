@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff4747fd;
+    background-color: #e2e2e2f3;
 }
 
 .container {
@@ -22,6 +22,11 @@ body {
     justify-content: center;
 }
 
+.form-image{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+}
 
 .form {
     width: 50%;
@@ -29,7 +34,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: #eee;
+    border-radius: 10%;
     padding: 3rem;
 }
 
