@@ -6,15 +6,13 @@
     outline: none;
     border: 0;
     text-decoration: none;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
+} 
 
-body{
-    background: #dfe9f5;
-}
 
 nav{
+    margin: 0;
+    text-decoration: none;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -27,6 +25,11 @@ nav{
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
 
+ul{
+    align-items: center;
+    margin: 0;
+    padding: 0px;
+}
 .logo{
     text-align: center;
     display: flex;
@@ -34,14 +37,15 @@ nav{
 }
 
 .logo img{
-    width: 45px;
-    height: 45px;
+    padding-top: 20px;
+    width: 60px;
+    height: 50px;
     border-radius: 50%;
 }
 
 .logo span{
     font-weight: bold;
-    padding: 15px;
+    padding: 25px;
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -52,7 +56,7 @@ a{
     font-size: 14px;
     display: table;
     width: 300px;
-    padding: 10px;
+    padding: 15px 20px;
 }
 
 .fas{
@@ -62,4 +66,45 @@ a{
     top: 14px;
     font-size: 20px;
     text-align: center;
+}
+
+.nav-item{
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+    margin-left: 0px;
+    margin: 0;
+}
+
+.ajuste{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    border-radius: 10% 0 0 10%;
+    transition: all 0.5s ease;
+    background: #eee;
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.50s ease;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+}
+
+.logout .ajst{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
 }

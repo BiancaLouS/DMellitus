@@ -1,0 +1,9 @@
+
+
+.col3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: calc(100vh - 26vh);
+    justify-content: center;
+    align-items: center;
+}
