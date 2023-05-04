@@ -88,11 +88,13 @@ li{
 }
 
 a:hover{
+    border-radius: 10% 0 0 10%;
+    transition: all 0.5s ease;
     background: #eee;
 }
 nav:hover{
     width: 280px;
-    transition: all 0.5s ease;
+    transition: all 0.50s ease;
 }
 
 .logout{

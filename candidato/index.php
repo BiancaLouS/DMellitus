@@ -11,5 +11,6 @@
     <<?php include 'superior.php'?>
     <br><br>
     <?php include 'subsuperior.php'?>
+    <?php include 'centro.php'?>
 </body>
 </html>
