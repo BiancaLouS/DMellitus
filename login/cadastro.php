@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
      include '../conexao/conn.php';
     
 
@@ -32,7 +32,7 @@
       ";
         $resultado = $conn->query($cadastro);
     };
-?>
+?> -->
 
 
 <!DOCTYPE html>
