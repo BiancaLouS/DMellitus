@@ -1,55 +1,41 @@
 <?php 
-     include '../conexao/conn.php';
-    
 
-    if($_POST){  
-        $genero = $_POST['genero'];
 
-        if($genero == "masculino"){
-            $genero = "M";
-        }if($genero == "feminino"){
-            $genero = "F";
-        }if($genero == "none"){
-            $genero = "P";
-        }
 
-        $senhap = $_POST['senhap'];
-        $senhac = $_POST['senhac'];
-        if($senhap == $senhac){
-            $senha = $senhap;
-        };
-    };
-    if($_POST){
-        $nome = $_POST['nome'];
-        $sobrenome = $_POST['sobrenome'];
-        $email = $_POST['email'];
-        $nascimento = $_POST['nascimento'];
 
-        $cadastro = "INSERT usuarios
-        (nome, sobrenome, email, idade, senha, genero)
-        VALUES
-        ('$nome','$sobrenome','$email','$nascimento','$senha','$genero')
-        ";
-            $resultado = $conn->query($cadastro);
-    };
+if($_POST){  
+    $genero = $_POST['genero'];
+
+    // if($genero == 'masculino'){
+    //     $genero = "M";
+    // }if($genero == "feminino"){
+    //     $genero = "F";
+    // }if($genero == "none"){
+    //     $genero = "P";
+    // }
+
+    print_r($genero);
+
+    // $senhap = $_POST['senhap'];
+    // $senhac = $_POST['senhac'];
+    // if($senhap == $senhac){
+    //     $senha = $senhap;
+    // };
+}
 ?>
 
 
-<!DOCTYPE html>
-<html lang="pt-br">
 
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/cadastro.css">
-    <title>Formulário</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="form">
-            <form action="cadastro.php" method="post" name="form_usuario_insere"
+<form action="teste.php" method="post" name="form_usuario_insere"
                     enctype="multipart/form-data" id="form_usuario_insere" >
                 <div class="form-header">
                     <div class="title">
@@ -59,7 +45,7 @@
                         <button><a href="#">Entrar</a></button>
                     </div>
                 </div>
-
+<!-- 
                 <div class="input-group">
                     <div class="input-box">
                         <label for="nome">Primeiro Nome</label>
@@ -91,7 +77,7 @@
                         <input id="senhac" type="password" name="senhac" placeholder="Digite sua senha novamente" required>
                     </div>
 
-                </div>
+                </div> -->
 
                 <div class="gender-inputs">
                     <div class="gender-title">
@@ -100,25 +86,22 @@
 
                     <div class="gender-group" >
                         <div class="gender-input">
-                            <label for="feminino">Feminino</label>
-                            <input id="genero" type="radio" name="genero" value="feminino">
+                            <label for="genero">Feminino</label>
+                            <input id="genero" type="radio" name="genero">
                         </div>
 
                         <div class="gender-input"> 
-                            <label for="masculino">Masculino</label>
-                            <input id="genero" type="radio" name="genero" value="masculino">
+                            <label for="genero">Masculino</label>
+                            <input id="genero" type="radio" name="genero">
                         </div>
                         <div class="gender-input">
-                            <label for="none">Prefiro não dizer</label>
-                            <input id="genero" type="radio" name="genero" value="none">
+                            <label for="genero">Prefiro não dizer</label>
+                            <input id="genero" type="radio" name="genero">
                         </div>
                     </div>
                 </div>
                 <input type="submit" name="enviar" id="enviar"
                              class="continue-button" value="Cadastrar">
             </form>
-        </div>
-    </div>
 </body>
-
 </html>
