@@ -12,7 +12,7 @@
     <nav>
         <ul>
             <li><a href="" class="logo nav-item">
-                    <img src="../Img/logopequena.jpg" alt="">
+                    <img src="../Img/logopequena.png" alt="">
                     <span>MELLITUS</span>
                 </a>
             </li>            

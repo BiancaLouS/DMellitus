@@ -1,5 +1,22 @@
+<?php 
+    include '../conexao/conn.php';
+
+    if($_POST){
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+        $login = $conn->query("select * from usuarios where  email = '$email' and senha = '$senha'");
+        $rowLogin = $login->fetch_assoc();
+        $Row = mysqli_num_rows($login);
+        if(($Row)>0){  
+            echo "<script>window.open('../candidato/index.php','_self')</script>";
+        }
+
+    }
+?>
+
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -13,9 +30,9 @@
     <div class="container">
         <div class="form">
           <div class="form-image">
-            <img src="../Img/logoPequena.jpg" alt="">
+            <img src="../Img/logoPequena.png" alt="">
           </div>
-            <form action="" method="post" name="" id="" >
+            <form action="login.php" method="post" name="" id="" >
                 <div class="form-header">
                     <div class="title">
                         <h1>Login</h1>
@@ -39,3 +56,4 @@
             </form>
         </div>
     </div>
+</body>

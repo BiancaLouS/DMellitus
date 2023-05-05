@@ -76,7 +76,7 @@
                         <button class="btn btn-danger" type="submit">Pesquisar</button>
                     </form>
 
-                    <h3 class="inlineIcone"><a href=""><img src="Img/googlePlay.png" style="width: 150px;" alt="Google Play"></a></h3>
+                    <h3 class="inlineIcone"><a href=""><img src="Img/ambientevirtual_230X72.gif" style="width: 150px;" alt="Google Play"></a></h3>
                     <h3 class="inlineIcone"><a href=""><img src="Img/appleStore.png" style="width: 150px;" alt="Apple Store"></a>
 
                 </div>

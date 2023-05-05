@@ -9,20 +9,43 @@
 </head>
 <body>
     <div class="col3">
-        <div>
-            dfas
+        <div class="alinha">
+            <div class="card">
+                <div class="title">
+                    <h1>Titulo</h1>
+                </div>
+                <div class="conteudos">
+                    <div class="texto">
+                        
+                    </div>
+                    <div class="texto">
+                        fdsd
+                    </div>
+                    <div class="texto">
+                        kfd    
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            uhdsd
+        <div class="alinha">
+            <div class="card">
+                <div class="title">
+                    <h1>Titulo</h1>
+                </div>
+                <div class="conteudos">
+                    ldls
+                </div>
+            </div>
         </div>
-        <div>
-            dfjdf
-        </div>
-        <div>
-            sjds
-        </div>
-        <div>   
-            sdjs
+        <div class="alinha">
+            <div class="card">
+                <div class="title">
+                    <h1>Titulo</h1>
+                </div>
+                <div class="conteudos">
+                    dksk
+                </div>
+            </div>
         </div>
     </div>
 </body>
