@@ -96,7 +96,7 @@
                         <div class="carousel-caption text-left textoBanner">
                             <h1>FAÇA JÁ O SEU CADASTRO!</h1>
                             <br>
-                            <h3 class="inlineIcone"><a href="login/cadastro.php"><img src="Img/ambientevirtual_230X72.gif" style="width: 250px;" alt="Google Play"></a></h3>
+                            <h3 class="inlineIcone"><a href="candidato/index.php"><img src="Img/ambientevirtual_230X72.gif" style="width: 250px;" alt="Google Play"></a></h3>
                             <h3 class="inlineIcone"> 
 
                             <p class="subTexto"> <br> Controle sua Glicemia, Controle seu Horário, Controle-se. </p>

@@ -1,5 +1,5 @@
 <?php 
-     include '../conexao/conn.php';
+     include '../../conexao/conn.php';
     
 
     if($_POST){  
@@ -56,7 +56,7 @@
                         <h1>Cadastre-se</h1>
                     </div>
                     <div class="login-button">
-                        <button><a href="#">Entrar</a></button>
+                        <button><a href="login.php">Entrar</a></button>
                     </div>
                 </div>
 

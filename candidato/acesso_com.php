@@ -8,7 +8,7 @@
     //verificar se o usuario esta logado na sessão
     if(!isset($_SESSION['nome'])){
         //se nao existir, redirecionamos a sessão por segurança
-        header('location: login.php');
+        header('location: login/login.php');
         exit;
     }
     $nome_da_sessao = session_name();
@@ -16,7 +16,7 @@
         or ($_SESSION['nome_da_sessao']!=$nome_da_sessao)
     ){
         session_destroy();
-        header('location: login.php');
+        header('location: login/login.php');
         exit;
     }
  

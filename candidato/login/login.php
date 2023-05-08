@@ -1,5 +1,5 @@
 <?php 
-    include '../conexao/conn.php';
+    include '../../conexao/conn.php';
 
     if($_POST){
         $email = $_POST['email'];
@@ -7,8 +7,15 @@
         $login = $conn->query("select * from usuarios where  email = '$email' and senha = '$senha'");
         $rowLogin = $login->fetch_assoc();
         $Row = mysqli_num_rows($login);
+
+        if(!isset($_SESSION)){
+            $sessaoAntiga = session_name('dmellitus');
+            session_start();
+            $session_name_new =  session_name();
+        }
         if(($Row)>0){  
-            echo "<script>window.open('../candidato/index.php','_self')</script>";
+            $_SESSION['nome_da_sessao'] = session_name();
+            echo "<script>window.open('../index.php','_self')</script>";
         }
 
     }
