@@ -3,6 +3,7 @@
     
 
     if($_POST){  
+        $nivel = 'USE';
         $genero = $_POST['genero'];
 
         if($genero == "masculino"){
@@ -26,9 +27,9 @@
         $nascimento = $_POST['nascimento'];
 
         $cadastro = "INSERT usuarios
-        (nome, sobrenome, email, idade, senha, genero)
+        (nome, sobrenome, email, idade, senha, genero, nivel)
         VALUES
-        ('$nome','$sobrenome','$email','$nascimento','$senha','$genero')
+        ('$nome','$sobrenome','$email','$nascimento','$senha','$genero','$nivel')
         ";
             $resultado = $conn->query($cadastro);
     };

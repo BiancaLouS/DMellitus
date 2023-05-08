@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
             </div>
             <div class="ajs conta">
                 <i class="fas fa-user-alt"></i>
-                <span>Olá Nome!<br>
+                <!-- <span>Olá <?php echo($_SESSION['nome']); ?>!<br> -->
                     Minha Conta
                 </span>
             </div>

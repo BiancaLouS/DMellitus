@@ -4,18 +4,24 @@
     if($_POST){
         $email = $_POST['email'];
         $senha = $_POST['senha'];
-        $login = $conn->query("select * from usuarios where  email = '$email' and senha = '$senha'");
+        $nome  = $_POST['nome'];
+        $login = $conn->query("select * from usuarios where nome = '$nome' and email = '$email' and senha = '$senha'");
         $rowLogin = $login->fetch_assoc();
         $Row = mysqli_num_rows($login);
 
+        print_r($rowLogin);
         if(!isset($_SESSION)){
             $sessaoAntiga = session_name('dmellitus');
             session_start();
             $session_name_new =  session_name();
         }
         if(($Row)>0){  
+            $_SESSION['nome'] = $nome;
+            $_SESSION['nivel'] = $rowLogin['nivel'];
             $_SESSION['nome_da_sessao'] = session_name();
-            echo "<script>window.open('../index.php','_self')</script>";
+            if($rowLogin['nivel']=='USE'){
+                echo "<script>window.open('../index.php','_self')</script>";
+            }   
         }
 
     }
@@ -50,6 +56,10 @@
                 </div>
 
                 <div class="input-group">
+                    <div class="input-box">
+                        <label for="nome">nome</label>
+                        <input id="nome" type="name" name="nome" placeholder="Obs: apenas seu primeiro nome" required>
+                    </div>
                     <div class="input-box">
                         <label for="email">Email</label>
                         <input id="email" type="email" name="email"  placeholder="Digite seu email" required >

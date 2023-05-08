@@ -16,12 +16,12 @@
                     <span>MELLITUS</span>
                 </a>
             </li>            
-            <li><a href="" class="nav-item">
+            <li><a href="index.php" class="nav-item">
                     <i class="fas fa-home"></i>
                     <span class="ajuste">home</span>
                 </a>
             </li>                                             
-            <li><a href="" class="nav-item">
+            <li><a href="minhaconta.php" class="nav-item">
                     <i class="fas fa-user-alt"></i>
                     <span class="ajuste">Minha Conta</span>
                 </a>
