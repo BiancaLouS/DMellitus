@@ -29,8 +29,9 @@ li{
 footer{
     margin: 0%;
     padding: 0%;
-
+    background-color: #dc3545;
 }
+
 
 /* botao volta para o inicio */
 #btn-voltar-topo {
@@ -177,4 +178,8 @@ footer ul.social-buttons li a i
 
 .textoBanner{
     margin-bottom: 420px;
+}
+
+#carouselPrincipal{
+    width: 100%;
 }

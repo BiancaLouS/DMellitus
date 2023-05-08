@@ -76,7 +76,7 @@
                         <button class="btn btn-danger" type="submit">Pesquisar</button>
                     </form>
 
-                    <h3 class="inlineIcone"><a href=""><img src="Img/ambientevirtual_230X72.gif" style="width: 150px;" alt="Google Play"></a></h3>
+                    <h3 class="inlineIcone"><a href=""><img src="Img/googlePlay.png" style="width: 150px;" alt="Google Play"></a></h3>
                     <h3 class="inlineIcone"><a href=""><img src="Img/appleStore.png" style="width: 150px;" alt="Apple Store"></a>
 
                 </div>
@@ -94,24 +94,25 @@
 
                         <!-- Texto do banner -->
                         <div class="carousel-caption text-left textoBanner">
-                            <h1>FAÇA JÁ O DOWNLOAD! </h1>
-                            <h3 class="inlineIcone"><a href=""><img src="Img/googlePlay.png" style="width: 150px;" alt="Google Play"></a></h3>
-                            <h3 class="inlineIcone"><a href=""><img src="Img/appleStore.png" style="width: 150px;" alt="Apple Store"></a>
+                            <h1>FAÇA JÁ O SEU CADASTRO!</h1>
+                            <br>
+                            <h3 class="inlineIcone"><a href="login/cadastro.php"><img src="Img/ambientevirtual_230X72.gif" style="width: 250px;" alt="Google Play"></a></h3>
+                            <h3 class="inlineIcone"> 
 
-                            <p class="subTexto">Controle sua Glicemia, Controle seu Horário, Controle-se. </p>
+                            <p class="subTexto"> <br> Controle sua Glicemia, Controle seu Horário, Controle-se. </p>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                     <img src="Img/maeFilha.jpg" class="d-block w-100" alt="Pai e filho usando aplicativo">
                     <div class="carousel-caption text-left textoBanner">
-                            <h1>FAÇA JÁ O DOWNLOAD!</h1>
-                            <h3 class="inlineIcone"><a href=""><img src="Img/googlePlay.png" style="width: 150px;" alt="Google Play"></a></h3>
-                            <h3 class="inlineIcone"><a href=""><img src="Img/appleStore.png" style="width: 150px;" alt="Apple Store"></a>
+                            <h1>FAÇA JÁ O SEU CADASTRO!</h1>
+                            <br>
+                            <h3 class="inlineIcone"><a href="login/cadastro.php"><img src="Img/ambientevirtual_230X72.gif" style="width: 250px;" alt="Google Play"></a></h3>
+                            <h3 class="inlineIcone"> 
 
-                            <p class="subTexto">Controle sua Glicemia, Controle seu Horário, Controle-se. </p>
+                            <p class="subTexto"> <br> Controle sua Glicemia, Controle seu Horário, Controle-se. </p>
                         </div>
-                    </div>
             </div>
             
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincipal" data-bs-slide="prev">

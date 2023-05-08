@@ -14,7 +14,7 @@
 </head>
 <body>
 <footer>
-		<div class="wrap-footer">
+		<div class="wrap-footer color">
 			<div class="container">
 				<div class="row"> 
 					<div class="col-footer col-md-3">
@@ -27,7 +27,7 @@
 						<ul>
 							<li><a href="index.php">HOME</a></li>
 							<li><a href="receita.php">RECEITAS</a></li>
-							<li><a href="#">CURIOSIDADES</a></li>
+							<li><a href="#">DOWNLOAD</a></li>
 							<li><a href="#">SOBRE O APP</a></li>
 						</ul>
 					</div>
